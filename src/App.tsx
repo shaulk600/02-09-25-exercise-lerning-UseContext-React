@@ -1,6 +1,10 @@
-import react from 'react'
 
 import './App.css'
+
+import Task1Fixed from './comps/TaskA/Task1Fixed'
+import Task1 from './comps/TaskA/Task1Fixed'
+
+// import Task1 from './comps/taskB'
 
 function App() {
 
@@ -8,7 +12,8 @@ function App() {
   return (
     <>
 
-
+      <Task1 />
+      <Task1Fixed />
     </>
   )
 }
